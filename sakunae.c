@@ -682,7 +682,7 @@ void quizv3(Base *a, List *list)
   tribulle(liste, length); length_min=20*a->numword/100; length_max=a->numword-length_min;
   listmin= malloc( length_min*sizeof(double)); listmax= malloc( length_max*sizeof(double));
   initmin(&*a, liste, &*listmin, length_min); initmax(&*a, liste, &*listmax, length_max);
-     printf("Bien. Vous allez donc être interoggé sur certains mots, un melange de mots qui n'ont pas été bien maîtrisés et bien maîtrisés.(Max=20)\n=============\n");
+     printf("Bien. Vous allez donc être interoggé sur certains mots, un melange de mots qui n'ont pas été bien maîtrisés.(Max=20)\n=============\n");
      do
      {
        i=findwin(&*a);
